@@ -1,0 +1,277 @@
+================================================================================
+STATISTICAL ANALYSIS: Normality Tests and ANOVA/Kruskal-Wallis
+================================================================================
+
+================================================================================
+VARIABLE: Analytic Thinking (liwc_scores.analytic)
+================================================================================
+
+--- Normality Tests (Shapiro-Wilk) ---
+Topic                     n        W-statistic     p-value         Normal?
+--------------------------------------------------------------------------------
+American politics         641      0.9930          4.2114e-03      No
+Religion                  457      0.9962          3.5686e-01      Yes
+Economic concerns         570      0.9936          1.6602e-02      No
+Life, death and morality  643      0.9950          3.4252e-02      No
+Governance of violence    526      0.9943          4.6279e-02      No
+Everyday life             665      0.9949          2.6699e-02      No
+Education                 505      0.9977          7.2245e-01      Yes
+Sustainability            274      0.9873          1.6571e-02      No
+Relationships             732      0.9953          2.4790e-02      No
+
+--- Levene's Test for Homogeneity of Variance ---
+Levene's statistic: 4.7313
+p-value: 8.4423e-06
+Equal variances assumption met? No
+
+--- Test Selection ---
+✗ Many groups violate normality assumption
+✗ Non-parametric test (Kruskal-Wallis) is more appropriate
+
+--- Statistical Test Results ---
+Kruskal-Wallis H-test (non-parametric):
+  H-statistic: 282.1679
+  p-value: 2.5560e-56
+  *** Highly significant difference between topics (p < 0.001)
+
+--- Descriptive Statistics by Topic ---
+Topic                     Mean         Median       Std Dev      Min          Max
+------------------------------------------------------------------------------------------
+American politics         54.9738      54.9428      13.4686      12.0819      86.6232     
+Religion                  50.3666      51.2616      13.8911      13.1391      85.5395     
+Economic concerns         56.1892      57.0099      13.4569      19.1108      87.9823     
+Life, death and morality  48.8308      48.4211      14.3633      13.8791      85.5395     
+Governance of violence    57.8667      58.4627      12.7941      16.0420      86.6232     
+Everyday life             50.5421      50.8370      15.3368      8.0198       86.6232     
+Education                 54.0183      54.6698      13.1190      15.0791      91.2108     
+Sustainability            57.6957      58.0834      13.0576      9.8166       86.6232     
+Relationships             48.7620      48.5198      14.3257      11.6295      84.7365     
+
+================================================================================
+VARIABLE: Authenticity (liwc_scores.authentic)
+================================================================================
+
+--- Normality Tests (Shapiro-Wilk) ---
+Topic                     n        W-statistic     p-value         Normal?
+--------------------------------------------------------------------------------
+American politics         641      0.9560          6.3641e-13      No
+Religion                  457      0.9477          1.2631e-11      No
+Economic concerns         570      0.9695          1.6258e-09      No
+Life, death and morality  643      0.9383          1.1287e-15      No
+Governance of violence    526      0.9403          1.1014e-13      No
+Everyday life             665      0.9271          1.9303e-17      No
+Education                 505      0.9357          6.1725e-14      No
+Sustainability            274      0.9623          1.4294e-06      No
+Relationships             732      0.9627          1.0740e-12      No
+
+--- Levene's Test for Homogeneity of Variance ---
+Levene's statistic: 9.4182
+p-value: 5.3370e-13
+Equal variances assumption met? No
+
+--- Test Selection ---
+✗ Many groups violate normality assumption
+✗ Non-parametric test (Kruskal-Wallis) is more appropriate
+
+--- Statistical Test Results ---
+Kruskal-Wallis H-test (non-parametric):
+  H-statistic: 145.4174
+  p-value: 1.7687e-27
+  *** Highly significant difference between topics (p < 0.001)
+
+--- Descriptive Statistics by Topic ---
+Topic                     Mean         Median       Std Dev      Min          Max
+------------------------------------------------------------------------------------------
+American politics         31.7628      29.7419      12.9713      2.9195       80.0706     
+Religion                  35.1129      32.9868      14.2018      10.3986      92.0352     
+Economic concerns         30.2112      28.3254      12.0447      3.8381       75.5816     
+Life, death and morality  36.4434      33.1213      15.3508      1.9585       92.9776     
+Governance of violence    30.0566      28.1389      12.1363      4.3962       71.1778     
+Everyday life             37.2171      32.6539      16.8392      3.0337       96.7045     
+Education                 35.5256      32.2815      14.6833      7.1758       87.8456     
+Sustainability            35.1927      33.2431      12.8396      6.6189       81.5242     
+Relationships             35.3615      32.9532      14.7398      1.9585       95.2457     
+
+================================================================================
+VARIABLE: Emotional Tone (liwc_scores.tone)
+================================================================================
+
+--- Normality Tests (Shapiro-Wilk) ---
+Topic                     n        W-statistic     p-value         Normal?
+--------------------------------------------------------------------------------
+American politics         641      0.9903          3.0455e-04      No
+Religion                  457      0.9964          3.8379e-01      Yes
+Economic concerns         570      0.9974          5.0362e-01      Yes
+Life, death and morality  643      0.9909          5.1948e-04      No
+Governance of violence    526      0.9873          1.5532e-04      No
+Everyday life             665      0.9889          6.4534e-05      No
+Education                 505      0.9877          3.0259e-04      No
+Sustainability            274      0.9799          6.4662e-04      No
+Relationships             732      0.9834          2.2291e-07      No
+
+--- Levene's Test for Homogeneity of Variance ---
+Levene's statistic: 3.7559
+p-value: 2.1349e-04
+Equal variances assumption met? No
+
+--- Test Selection ---
+✗ Many groups violate normality assumption
+✗ Non-parametric test (Kruskal-Wallis) is more appropriate
+
+--- Statistical Test Results ---
+Kruskal-Wallis H-test (non-parametric):
+  H-statistic: 331.9877
+  p-value: 6.3064e-67
+  *** Highly significant difference between topics (p < 0.001)
+
+--- Descriptive Statistics by Topic ---
+Topic                     Mean         Median       Std Dev      Min          Max
+------------------------------------------------------------------------------------------
+American politics         43.0127      42.0469      16.9552      1.0000       92.0400     
+Religion                  38.4941      37.8261      16.0282      1.0000       91.3548     
+Economic concerns         47.1627      46.8714      16.7016      1.0000       95.4342     
+Life, death and morality  41.8798      41.3032      18.4077      1.0000       98.4248     
+Governance of violence    32.2577      32.3926      16.1320      1.0000       87.7770     
+Everyday life             45.8368      44.0227      18.2955      1.1749       99.0000     
+Education                 49.0005      47.3056      18.4829      4.7215       99.0000     
+Sustainability            42.5385      40.8480      15.7199      11.8576      96.5369     
+Relationships             39.1292      36.9456      18.3159      1.0000       97.1765     
+
+================================================================================
+VARIABLE: Anxiety (liwc_scores.categories.anx)
+================================================================================
+
+--- Normality Tests (Shapiro-Wilk) ---
+Topic                     n        W-statistic     p-value         Normal?
+--------------------------------------------------------------------------------
+American politics         641      0.9234          1.5546e-17      No
+Religion                  457      0.8165          1.8916e-22      No
+Economic concerns         570      0.9272          5.3648e-16      No
+Life, death and morality  643      0.8598          1.7090e-23      No
+Governance of violence    526      0.7071          2.8815e-29      No
+Everyday life             665      0.8585          5.5456e-24      No
+Education                 505      0.9159          3.7792e-16      No
+Sustainability            274      0.9137          1.8147e-11      No
+Relationships             732      0.8086          1.4770e-28      No
+
+--- Levene's Test for Homogeneity of Variance ---
+Levene's statistic: 5.0905
+p-value: 2.4939e-06
+Equal variances assumption met? No
+
+--- Test Selection ---
+✗ Many groups violate normality assumption
+✗ Non-parametric test (Kruskal-Wallis) is more appropriate
+
+--- Statistical Test Results ---
+Kruskal-Wallis H-test (non-parametric):
+  H-statistic: 120.1691
+  p-value: 3.0591e-22
+  *** Highly significant difference between topics (p < 0.001)
+
+--- Descriptive Statistics by Topic ---
+Topic                     Mean         Median       Std Dev      Min          Max
+------------------------------------------------------------------------------------------
+American politics         0.0026       0.0024       0.0015       0.0000       0.0137      
+Religion                  0.0025       0.0022       0.0019       0.0000       0.0162      
+Economic concerns         0.0023       0.0021       0.0014       0.0000       0.0114      
+Life, death and morality  0.0026       0.0022       0.0018       0.0000       0.0190      
+Governance of violence    0.0033       0.0028       0.0024       0.0000       0.0281      
+Everyday life             0.0027       0.0023       0.0018       0.0000       0.0185      
+Education                 0.0023       0.0020       0.0014       0.0000       0.0096      
+Sustainability            0.0024       0.0020       0.0015       0.0000       0.0107      
+Relationships             0.0029       0.0026       0.0019       0.0000       0.0201      
+
+================================================================================
+VARIABLE: Anger (liwc_scores.categories.anger)
+================================================================================
+
+--- Normality Tests (Shapiro-Wilk) ---
+Topic                     n        W-statistic     p-value         Normal?
+--------------------------------------------------------------------------------
+American politics         641      0.8967          2.4126e-20      No
+Religion                  457      0.8956          4.1956e-17      No
+Economic concerns         570      0.9596          2.1061e-11      No
+Life, death and morality  643      0.9282          5.5205e-17      No
+Governance of violence    526      0.8681          1.1502e-20      No
+Everyday life             665      0.9713          3.8853e-10      No
+Education                 505      0.9473          1.9934e-12      No
+Sustainability            274      0.9739          6.7118e-05      No
+Relationships             732      0.9177          1.6327e-19      No
+
+--- Levene's Test for Homogeneity of Variance ---
+Levene's statistic: 14.5273
+p-value: 3.6343e-21
+Equal variances assumption met? No
+
+--- Test Selection ---
+✗ Many groups violate normality assumption
+✗ Non-parametric test (Kruskal-Wallis) is more appropriate
+
+--- Statistical Test Results ---
+Kruskal-Wallis H-test (non-parametric):
+  H-statistic: 328.9771
+  p-value: 2.7652e-66
+  *** Highly significant difference between topics (p < 0.001)
+
+--- Descriptive Statistics by Topic ---
+Topic                     Mean         Median       Std Dev      Min          Max
+------------------------------------------------------------------------------------------
+American politics         0.0092       0.0085       0.0045       0.0000       0.0518      
+Religion                  0.0099       0.0094       0.0049       0.0005       0.0464      
+Economic concerns         0.0075       0.0073       0.0036       0.0000       0.0292      
+Life, death and morality  0.0089       0.0085       0.0044       0.0000       0.0336      
+Governance of violence    0.0122       0.0111       0.0064       0.0013       0.0610      
+Everyday life             0.0082       0.0078       0.0040       0.0000       0.0261      
+Education                 0.0077       0.0072       0.0040       0.0000       0.0299      
+Sustainability            0.0078       0.0076       0.0036       0.0009       0.0192      
+Relationships             0.0093       0.0086       0.0049       0.0006       0.0361      
+
+================================================================================
+VARIABLE: Sadness (liwc_scores.categories.sad)
+================================================================================
+
+--- Normality Tests (Shapiro-Wilk) ---
+Topic                     n        W-statistic     p-value         Normal?
+--------------------------------------------------------------------------------
+American politics         641      0.8340          2.8099e-25      No
+Religion                  457      0.8898          1.3780e-17      No
+Economic concerns         570      0.9595          2.0218e-11      No
+Life, death and morality  643      0.6928          1.4217e-32      No
+Governance of violence    526      0.9026          8.2139e-18      No
+Everyday life             665      0.8820          4.5091e-22      No
+Education                 505      0.8944          3.7105e-18      No
+Sustainability            274      0.9014          2.1319e-12      No
+Relationships             732      0.9098          2.0494e-20      No
+
+--- Levene's Test for Homogeneity of Variance ---
+Levene's statistic: 11.7215
+p-value: 1.1641e-16
+Equal variances assumption met? No
+
+--- Test Selection ---
+✗ Many groups violate normality assumption
+✗ Non-parametric test (Kruskal-Wallis) is more appropriate
+
+--- Statistical Test Results ---
+Kruskal-Wallis H-test (non-parametric):
+  H-statistic: 55.7778
+  p-value: 3.1163e-09
+  *** Highly significant difference between topics (p < 0.001)
+
+--- Descriptive Statistics by Topic ---
+Topic                     Mean         Median       Std Dev      Min          Max
+------------------------------------------------------------------------------------------
+American politics         0.0027       0.0026       0.0015       0.0000       0.0206      
+Religion                  0.0027       0.0025       0.0016       0.0000       0.0121      
+Economic concerns         0.0031       0.0029       0.0014       0.0000       0.0109      
+Life, death and morality  0.0036       0.0030       0.0029       0.0000       0.0312      
+Governance of violence    0.0029       0.0028       0.0016       0.0000       0.0132      
+Everyday life             0.0030       0.0026       0.0018       0.0000       0.0128      
+Education                 0.0029       0.0027       0.0017       0.0000       0.0141      
+Sustainability            0.0029       0.0028       0.0013       0.0000       0.0125      
+Relationships             0.0030       0.0028       0.0016       0.0000       0.0154      
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================
