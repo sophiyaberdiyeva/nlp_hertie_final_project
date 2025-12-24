@@ -16,31 +16,25 @@ The internet serves as a platform for organized disagreement, with CMV being a p
 
 ## Research Questions
 
-* 
-**RQ1:** What are the main topics discussed in the r/ChangeMyView subreddit according to the LDA model? 
+* **RQ1:** What are the main topics discussed in the r/ChangeMyView subreddit according to the LDA model? 
 
 
-* 
-**RQ2:** How do the psychological and linguistic characteristics of the authors of the original posts vary across different topic areas? 
+* **RQ2:** How do the psychological and linguistic characteristics of the authors of the original posts vary across different topic areas? 
 
 
 
 ## Methodology
 
-* 
-**Data Source:** The project uses the **Webis ChangeMyView Corpus 2020** (Webis-CMV-20) dataset.
+* **Data Source:** The project uses the **Webis ChangeMyView Corpus 2020** (Webis-CMV-20) dataset.
 
 
-* 
-**Topic Modeling:** Latent Dirichlet Allocation (LDA) was implemented to extract topics from Reddit submissions.
+* **Topic Modeling:** Latent Dirichlet Allocation (LDA) was implemented to extract topics from Reddit submissions.
 
 
-* 
-**Psychological Profiling:** LIWC2015 scores (e.g., tone, authenticity, analytic thinking) were used to profile debaters' linguistic styles and personality traits.
+* **Psychological Profiling:** LIWC2015 scores (e.g., tone, authenticity, analytic thinking) were used to profile debaters' linguistic styles and personality traits.
 
 
-* 
-**Analysis:** Downstream tasks include inter-topic comparisons and statistical evaluations of author characteristics.
+* **Analysis:** Downstream tasks include inter-topic comparisons and statistical evaluations of author characteristics.
 
 
 
@@ -63,8 +57,7 @@ The analysis is performed in Python. Key libraries include:
 * **Data Processing:** `pandas`, `numpy`, `re`
 * **NLP & Modeling:** `spacy`, `nltk`, `gensim`, `scikit-learn`
 * **Visualization:** `matplotlib`, `seaborn`
-* 
-**Utilities:** `joblib`, `dill`, `scipy` 
+* **Utilities:** `joblib`, `dill`, `scipy` 
 
 
 
@@ -86,15 +79,15 @@ pip install pandas numpy spacy nltk gensim scikit-learn matplotlib seaborn jobli
 
 ## Acknowledgments
 
-* 
+ 
 **Author:** Sofiya Berdiyeva (MDS 2024).
 
 
-* 
+ 
 **Course:** GRAD-E1282: Natural Language Processing at the Hertie School.
 
 
-* 
+ 
 **Credits:** Code was partially adapted from lab materials authored by Sascha Goebel and Luis Fernando Ramirez Ruiz.
 
 ## References
